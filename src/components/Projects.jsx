@@ -13,7 +13,7 @@ const Projects = () => {
             {/* ========================= projectos 1 ================================== */}
             <article className="project__card">
                 <div className="projects__image  ">
-                    <img src="/public/images/the-weathergif.gif" alt="" className="projects__img bg-center w-[100%] bg-cover" />
+                    <img src="/public/images/the-weathergif.gif" alt="aqui va una img" className="projects__img bg-center w-[100%] bg-cover" />
 
                     <a  target="_blank" href="https://the-weathet-ivc.netlify.app/" className="projects__button button">
                         <i className='bx bx-right-top-arrow-circle' ></i>
