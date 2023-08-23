@@ -1,15 +1,15 @@
 const Home = () => {
   return (
-    <section className="home section p-2" id="home">
-        <div className="home__container  container grid__container">
-            <h1 className="home__name">
+    <section className="home section p-2 h-screen" id="home">
+        <div className="home__container md:grid-cols-3    container grid__container">
+            <h1  className="home__name md:col-span-3">
                 Israel Vargas
             </h1>
-            <div className="home__perfil"> 
+            <div className="home__perfil md:col-start-1 md:col-end-2"> 
             <div className="home__image">
                 <img src="/images/img-perfil1.jpg" alt="img" className="home__img" />
             </div>
-            <div className="home__swadow">
+            <div className="home__swadow ">
 
                 
                 <img src="/images/random-lines.svg" alt="" className="home__line"/>
@@ -29,9 +29,9 @@ const Home = () => {
                     </a>
                 </div>
             </div>
-
             </div>
-            <div className="home__info">
+
+            <div className="home__info md:col-start-2 md:col-end-3">
                 <p className="text_description">
                     <b className="b">Frontend Developer</b>, with knowledge in web 
                         development and design, I offer the best 
