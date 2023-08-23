@@ -13,7 +13,7 @@ const Projects = () => {
             {/* ========================= projectos 1 ================================== */}
             <article className="project__card">
                 <div className="projects__image  ">
-                    <img src="/public/images/the-weathergif.gif" alt="aqui va una img" className="projects__img bg-center w-[100%] bg-cover" />
+                    <img src="/images/the-weathergif.gif" alt="aqui va una img" className="projects__img bg-center w-[100%] bg-cover" />
 
                     <a  target="_blank" href="https://the-weathet-ivc.netlify.app/" className="projects__button button">
                         <i className='bx bx-right-top-arrow-circle' ></i>
@@ -46,7 +46,7 @@ const Projects = () => {
 {/* ========================= projectos 2 ================================== */}
             <article className="project__card">
                 <div className="projects__image">
-                    <img src="/public/images/imgClouting.jpg" alt="" className="projects__img bg-cover bg-center" />
+                    <img src="/images/imgClouting.jpg" alt="" className="projects__img bg-cover bg-center" />
                     
 
                     <a target="_blank" href="https://e-commers-ivc.netlify.app/" className="projects__button button">
@@ -80,7 +80,7 @@ const Projects = () => {
             {/* ========================= projectos 3 ================================== */}
             <article className="project__card">
                 <div className="projects__image">
-                    <img src="/public/images/rickandmorty-mg.jpg" alt="" className="projects__img" />
+                    <img src="/images/rickandmorty-mg.jpg" alt="" className="projects__img" />
 
                     <a target="_blank" href="https://proyect-3-ivc.netlify.app/" className="projects__button button">
                         <i className='bx bx-right-top-arrow-circle' ></i>

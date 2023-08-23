@@ -8,7 +8,7 @@ const About = () => {
 
             <div className="about__perfil">
               <div className="about__image">
-                <img src="/public/images/img-perfil1.jpg" alt="img" className="about__img" />
+                <img src="/images/img-perfil1.jpg" alt="img" className="about__img" />
 
                 <div className="about__shadow"></div>
 
@@ -16,8 +16,8 @@ const About = () => {
                 <div className="about__box"></div>
                 
                 
-                <img src="/public/images/curved-arrow.svg" alt="" className="about__arrow" />
-                <img src="/public/images/random-lines.svg" alt="" className="about__line"/>
+                <img src="/images/curved-arrow.svg" alt="" className="about__arrow" />
+                <img src="/images/random-lines.svg" alt="" className="about__line"/>
 
               </div>
             </div>

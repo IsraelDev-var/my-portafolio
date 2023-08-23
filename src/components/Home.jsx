@@ -7,13 +7,13 @@ const Home = () => {
             </h1>
             <div className="home__perfil"> 
             <div className="home__image">
-                <img src="/public/images/img-perfil1.jpg" alt="img" className="home__img" />
+                <img src="/images/img-perfil1.jpg" alt="img" className="home__img" />
             </div>
             <div className="home__swadow">
 
                 
-                <img src="/public/images/random-lines.svg" alt="" className="home__line"/>
-                <img src="/public/images/curved-arrow.svg" alt="" className="home__arrow" />
+                <img src="/images/random-lines.svg" alt="" className="home__line"/>
+                <img src="/images/curved-arrow.svg" alt="" className="home__arrow" />
                 <div className="geometric-box">
                     
                 </div>
