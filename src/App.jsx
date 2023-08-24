@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Nav from './components/Nav'
 import Projects from './components/Projects'
 import Services from './components/Services'
+import Footer from './components/footer'
 
 
 function App() {
@@ -35,6 +36,7 @@ window.addEventListener("scroll", showHeader)
         <Services />
         <Projects />
         <Contact />
+        <Footer />
 
     </main>
   )
