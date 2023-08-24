@@ -87,7 +87,7 @@ const Contact = () => {
 
         </div>
         <div className="contact__social">
-          <img src="/public/images/curved-arrow.svg" alt="img" className="contact__social-arrow" />
+          <img src="/images/curved-arrow.svg" alt="img" className="contact__social-arrow" />
 
           <div className="contact__social-data">
             <div>

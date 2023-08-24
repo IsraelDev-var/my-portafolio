@@ -201,3 +201,15 @@ nav{
   background-color: hsl(0, 0%, 45%);
 
 }
+body.dark-theme{
+  --first-color: hsla(199, 80%, 50%, 0.3);
+  --black-color: hsl(0, 0%, 18%);
+  --black-color-light: hsl(0, 0%, 30%);
+ 
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 70%);
+ 
+  --body-color: hsl(0, 0%, 8%);
+  --container-color: hsl(0, 0%, 12%);
+
+}

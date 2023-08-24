@@ -1,5 +1,6 @@
 import { useState } from "react"
 import ShowMenu from "./ShowMenu"
+import { darkmode } from "../utils/darkMode"
 
 const Nav = () => {
     const [isShowMenu, setIsShowMenu] = useState(true)
@@ -37,7 +38,7 @@ return (
         
 
         <div> 
-        {isShowMenu ? <i className='bx bx-moon p-2'></i> : ""}
+        {isShowMenu ? <i onClick={darkmode} className='bx bx-moon p-2  '></i> : ""}
         
         { isShowMenu ? <i onClick={handleShowMenu} className='bx m-1 p-2 bx-menu  '></i> :
             <ShowMenu  handleShowMenu={handleShowMenu} />

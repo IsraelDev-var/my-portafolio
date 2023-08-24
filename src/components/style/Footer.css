@@ -68,3 +68,24 @@
     color: var(--white-color);
     font-weight: var(--font-medium);
 }
+.scrollup_container{
+    position: fixed;
+    right: 1rem;
+    bottom:3rem;
+    background-color: var(--black-color);
+    display: inline-flex;
+    padding: 8px;
+    color: var(--white-color);
+    z-index: 50;
+    transition:  botton .4s, transform .4s, background-color .4s;
+
+}
+
+.scrollup_container:hover{
+    transform: translateY(-.5rem);
+
+}
+
+.scrollup{
+    font-size: 1.25rem;
+}

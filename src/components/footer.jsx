@@ -21,9 +21,12 @@ const Footer = () => {
                     <a href="#home"> Israel Vargas</a>
                 </span>
         </div>
-        <a href="" className="scrollup" id="scroll-up">
-        <i class='bx bx-chevron-up'></i>
+        <div className="scrollup_container">
+            <a href="#" className="scrollup" id="scroll-up">
+            <i class='bx bx-chevron-up'></i>
         </a>
+        </div>
+        
     </section>
   )
 }
