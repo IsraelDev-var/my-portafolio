@@ -10,10 +10,10 @@ const Footer = () => {
                         <a href="#about" className="footer__link">About</a>
                     </li>
                     <li >
-                        <a href="services" className="footer__link">Services</a>
+                        <a href="#services" className="footer__link">Services</a>
                     </li>
                     <li >
-                        <a href="projects" className="footer__link">Projects</a>
+                        <a href="#projects" className="footer__link">Projects</a>
                     </li>
                 </ul>
                 <span className="footer__copy">

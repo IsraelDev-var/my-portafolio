@@ -26,7 +26,7 @@ const Projects = () => {
                     <p className="projects__description">
                         This website was created with<b> the Weather API, HTML CSS and JSX, tailwind.</b>
                         <br />
-                        This CSS This web application has a search and location system to be able to give you the coordinates of the weather,
+                        This web application has a search and location system to be able to give you the coordinates of the weather,
                         whether it is in your city or anywhere in the world.
                     </p>
                 </div>
