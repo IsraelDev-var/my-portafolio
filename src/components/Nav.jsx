@@ -38,7 +38,7 @@ return (
         
 
         <div> 
-        {isShowMenu ? <i onClick={darkmode} className='bx bx-moon p-2  '></i> : ""}
+        
         
         { isShowMenu ? <i onClick={handleShowMenu} className='bx m-1 p-2 bx-menu  '></i> :
             <ShowMenu  handleShowMenu={handleShowMenu} />
