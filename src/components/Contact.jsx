@@ -15,6 +15,7 @@ const Contact = () => {
       emailjs.sendForm('service_tpdtc2m', 'template_j4rtg54', form.current, 'tmQR9k3ODVVeo_1J7')
         .then((result) => {
             console.log(result.text);
+            e.target.reset()
             
         }, (error) => {
             console.log(error.text);
@@ -30,7 +31,7 @@ const Contact = () => {
   return (
     <section className="contact " id="contact" >
       
-      <div className="contact__container container grid">
+      <div className="contact__container container grid__container">
         <div className="contact__dat">
           <h2 className="section__title-2">
             <span>Contact Me.</span>

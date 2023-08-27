@@ -2,11 +2,11 @@ const Home = () => {
   return (
     <section className="home section p-2 h-screen" id="home">
         <div className="home__container md:grid-cols-3    container grid__container">
-            <h1  className="home__name md:col-span-3">
+            <h1  className="home__name md:text-5xl md:col-span-3">
                 Israel Vargas
             </h1>
             <div className="home__perfil md:col-start-1 md:col-end-2"> 
-            <div className="home__image">
+            <div className="home__image md:w-[300px]">
                 <img src="/images/img-perfil1.jpg" alt="img" className="home__img" />
             </div>
             <div className="home__swadow ">

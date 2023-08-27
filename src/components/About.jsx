@@ -2,12 +2,12 @@ const About = () => {
   return (
     <section className="about  section" id="about">
         <div className="about__container container grid">
-            <h2 className="section__title-1">
+            <h2 className="section__title-1 md:text-5xl">
                 <span>About Me</span>
             </h2>
 
             <div className="about__perfil">
-              <div className="about__image">
+              <div className="about__image md:w-[300px]  ">
                 <img src="/images/img-perfil1.jpg" alt="img" className="about__img" />
 
                 <div className="about__shadow"></div>

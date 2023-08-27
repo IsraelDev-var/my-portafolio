@@ -4,7 +4,7 @@ const Projects = () => {
 
   return (
     <section className="projects section" id="projects">
-        <h2 className="section__title-1">
+        <h2 className="section__title-1 md:text-5xl">
             <span>Projects.</span>
         </h2>
         <div className="projects__container  container grid">
