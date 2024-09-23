@@ -1,6 +1,6 @@
-import { useForm } from "react-hook-form"
 
-import React, { useRef } from 'react';
+
+import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -12,7 +12,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_tpdtc2m', 'template_j4rtg54', form.current, 'tmQR9k3ODVVeo_1J7')
+      emailjs.sendForm('service_tdwd1w3', 'template_j4rtg54', form.current, 'tmQR9k3ODVVeo_1J7')
         .then((result) => {
             console.log(result.text);
             e.target.reset()
@@ -38,13 +38,13 @@ const Contact = () => {
           </h2>
           <p className="contact__description-1">
           I will read all emails. Send me any 
-          message you want and I'll get back to you.
+          message you want and I&aops;ll get back to you.
 
           </p>
 
           <p className="contact__description-2">
           I need your <b>Name</b> and <b>Email Address</b>, but 
-          you won't receive anything other than your reply.
+          you won &aops; t  receive anything other than your reply.
 
           </p>
           <div className="geometric-box"></div>
@@ -100,13 +100,13 @@ const Contact = () => {
             </div>
             <div className="contact__social-link ">
 
-              <a href="https://web.facebook.com/imisrael.thebest" target="_blank" className="contact__social-link-a">
+              <a href="https://web.facebook.com/imisrael.thebest" rel="noreferrer" target="_blank" className="contact__social-link-a">
                 <i className='bx bxl-facebook bnt-footer'></i>
               </a>
-              <a href="https://www.instagram.com/israelvc2308/" target="_blank" className="contact__social-link-a">
+              <a href="https://www.instagram.com/israelvc2308/" rel="noreferrer" target="_blank" className="contact__social-link-a">
               <i className='bx bxl-instagram bnt-footer' ></i>
               </a>
-                <a href="https://www.linkedin.com/in/israel-varga-09911a251/" target="_blank" className="contact__social-link-a">
+                <a href="https://www.linkedin.com/in/israel-varga-09911a251/" rel="noreferrer" target="_blank" className="contact__social-link-a">
                 <i className='bx bxl-linkedin bnt-footer' ></i>
                 </a>
 
