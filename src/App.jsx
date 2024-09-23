@@ -14,6 +14,7 @@ function App() {
   const showHeader = ()=>{
     
     const header = document.getElementById("header")
+    
     if (header.classList.contains(".shadow-header")) {
       header.classList.remove("shadow-header")
       
