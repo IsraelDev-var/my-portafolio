@@ -136,7 +136,8 @@
 .home__scroll-box{
     background-color: var(--black-color);
     color: var(--white-color );
-    width: 36px;
+    padding: 10px;
+    width:auto;
     height: 36px;
     display: grid;
     place-items: center;
