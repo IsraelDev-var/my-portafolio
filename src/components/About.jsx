@@ -8,7 +8,7 @@ const About = () => {
 
             <div className="about__perfil">
               <div className="about__image md:w-[300px]  ">
-                <img src="/images/img-perfil1.jpg" alt="img" className="about__img" />
+                <img src="/images/jeep.jpg" alt="img" className="about__img" />
 
                 <div className="about__shadow"></div>
 
